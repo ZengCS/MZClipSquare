@@ -39,7 +39,7 @@ public class MainActivity extends Activity implements OnClickListener {
 			dir.mkdirs();
 		}
 
-		Bitmap bmp = BitmapFactory.decodeResource(getResources(), R.drawable.t2);
+		Bitmap bmp = BitmapFactory.decodeResource(getResources(), R.drawable.city);
 		clipImageView = (ClipSquareImageView) findViewById(R.id.clipSquareIV);
 		clipImageView.setImageBitmap(bmp);
 
